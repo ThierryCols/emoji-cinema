@@ -4,10 +4,13 @@ import renderer from 'react-test-renderer';
 import movieList from '../store'
 
 it('renders correctly', () => {
-  const tree = renderer.create(
-    <Carousel
-      movieList={movieList}
-    />
-  ).toJSON();
-  expect(tree).toMatchSnapshot();
+  for (let query in ['', 'F', 'Frozen', 'Frozen 2']) {
+    const tree = renderer.create(
+      <Carousel
+        movieList={movieList}
+        query={query}
+      />
+    ).toJSON();
+    expect(tree).toMatchSnapshot();
+  }
 });

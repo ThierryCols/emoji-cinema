@@ -26,9 +26,8 @@ class EmojiCinema extends React.Component {
           onChange={e => this.updateQuery(e)}
         />
         <Carousel
-          movieList={movieList.filter((movie) => {
-            return movie.title.toLowerCase().includes(this.state.query.toLowerCase())
-          })}
+          movieList={movieList}
+          query={this.state.query}
         />
       </div>
     );
