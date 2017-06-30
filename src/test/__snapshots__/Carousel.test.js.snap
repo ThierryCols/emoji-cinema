@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="carousel"
+>
+  <div
+    className="movie"
+  >
+    <p
+      className="title"
+    >
+      Frozen
+       - 
+    </p>
+    <p
+      className="emoji"
+    >
+      ❄️👗
+    </p>
+  </div>
+  <div
+    className="movie"
+  >
+    <p
+      className="title"
+    >
+      Finding Nemo
+       - 
+    </p>
+    <p
+      className="emoji"
+    >
+      🔎🐠
+    </p>
+  </div>
+  <div
+    className="movie"
+  >
+    <p
+      className="title"
+    >
+      The Lion King
+       - 
+    </p>
+    <p
+      className="emoji"
+    >
+      🦁👑
+    </p>
+  </div>
+  <div
+    className="movie"
+  >
+    <p
+      className="title"
+    >
+      Inspector Gadget
+       - 
+    </p>
+    <p
+      className="emoji"
+    >
+      🕵🚁
+    </p>
+  </div>
+  <div
+    className="movie"
+  >
+    <p
+      className="title"
+    >
+      Harry Potter
+       - 
+    </p>
+    <p
+      className="emoji"
+    >
+      👦🏻👓⚡️
+    </p>
+  </div>
+  <div
+    className="movie"
+  >
+    <p
+      className="title"
+    >
+      ET
+       - 
+    </p>
+    <p
+      className="emoji"
+    >
+      👽🚲🌛
+    </p>
+  </div>
+</div>
+`;
